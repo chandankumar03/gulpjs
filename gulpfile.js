@@ -4,23 +4,23 @@ var gulp    = require('gulp'),
      rename = require("gulp-rename"),
     concat  = require('gulp-concat');
 //script paths
-var jsFiles = './js/*.js',
+var clipjs =['/var/www/html/trendsutra3/js/flickity.pkgd.min.js','/var/www/html/trendsutra3/js/jquery.twbsPagination.js','/var/www/html/trendsutra3/js/listing.js','/var/www/html/trendsutra3/js/newclip.js'],
     jsDest = './scripts';
 
-gulp.task('scripts', function() {
-    return gulp.src(jsFiles)
-        .pipe(concat('scripts.js'))
+gulp.task('clip', function() {
+    return gulp.src(clipjs)
+        .pipe(concat('multi-section.js'))
         .pipe(gulp.dest(jsDest))
-	.pipe(rename('scripts.min.js'))
+	.pipe(rename('multi-section.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest(jsDest));
 });
 
 gulp.task('default', function(){
-    gulp.run('scripts'); 
+    gulp.run('clip'); 
 });
 
-gulp.watch('./js/*', function () {
-     gulp.run('scripts');
+gulp.watch('/var/www/html/trendsutra3/js/*', function () {
+     gulp.run('clip');
 });
 
