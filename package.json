@@ -1,0 +1,23 @@
+{
+  "name": "gulpjs",
+  "version": "1.0.0",
+  "description": "sudo npm install gulp-concat gulp-rename gulp-uglify --save-dev127.0.0.1\ttrend3.pepperfry.com",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-rename": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandankumar03/gulpjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandankumar03/gulpjs/issues"
+  },
+  "homepage": "https://github.com/chandankumar03/gulpjs#readme"
+}
