@@ -19,3 +19,8 @@ gulp.task('scripts', function() {
 gulp.task('default', function(){
     gulp.run('scripts'); 
 });
+
+gulp.watch('./js/*', function () {
+     gulp.run('scripts');
+});
+
