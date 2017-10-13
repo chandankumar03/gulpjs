@@ -772,6 +772,7 @@ if( typeof PF.CLIP === 'undefined' ) {
            
             listenOnPageLoad : {
                 click : {
+                    
                     //Redesign JS function binding starts here
                     '#searchBrandSrchBox':['PF.CLIP.brandFilterSearch','#page'],
                     '#catAlphates a':['PF.CLIP.filterBrandByLetter','#page'],
