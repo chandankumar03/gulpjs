@@ -9,7 +9,7 @@ var clipjs =['/var/www/html/trendsutra3/js/flickity.pkgd.min.js','/var/www/html/
 
 gulp.task('clip', function() {
     return gulp.src(clipjs)
-        .pipe(concat('multi-section.js'))
+        .pipe(concat('multi-section.min.js'))
         .pipe(gulp.dest(jsDest))
 	.pipe(rename('multi-section.min.js'))
         .pipe(uglify())
