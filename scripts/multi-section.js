@@ -751,6 +751,8 @@ $(function() {
 });
 
 var PF = PF || {};
+
+
 // force utilities library
 if ( typeof PF.UTILITIES === 'undefined' ) {
 	(function() {
