@@ -19,6 +19,7 @@ Install 3rd Party Packages to concat and minify:
 npm install grunt-contrib-concat --save-dev
 npm install grunt-contrib-cssmin --save-dev
 npm install grunt-contrib-uglify --save-dev
+npm install grunt-watcher --save-dev
 
 Execute Grunt:
 grunt
