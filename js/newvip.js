@@ -3,6 +3,7 @@
  */
 
 var PF = PF || {};
+var test=3;
 var pincode_serviceability_flag = '';
 (function (z, $) {
     var utils = z.UTILITIES;

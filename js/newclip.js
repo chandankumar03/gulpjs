@@ -1,5 +1,6 @@
 var PF = PF || {};
 var test=3;
+var teste=4;
 // force utilities library
 if ( typeof PF.UTILITIES === 'undefined' ) {
 	(function() {
